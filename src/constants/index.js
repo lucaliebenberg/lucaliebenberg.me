@@ -14,11 +14,11 @@ export const navLinks = [
     name: "Work",
     href: "#work",
   },
-  {
-    id: 4,
-    name: "Contact",
-    href: "#contact",
-  },
+  // {
+  //   id: 4,
+  //   name: "Contact",
+  //   href: "#contact",
+  // },
 ];
 
 export const myProjects = [
@@ -67,6 +67,40 @@ export const myProjects = [
   }
 ];
 
+export const myHobbies = [
+      {
+        id: 1,
+        name: "LinkedIn",
+        path: "/assets/linkedin.png",
+        href: "https://www.linkedin.com/in/luca-liebenberg/",
+      },
+      {
+        id: 2,
+        name: "Github",
+        path: "assets/github-white.png",
+        href: "https://github.com/lucaliebenberg",
+      },
+      {
+        id: 3,
+        name: "LeetCode",
+        path: "/assets/leetcode.png",
+        href: "https://leetcode.com/",
+        // href: "https://leetcode.com/u/lucaliebenberg/",
+      },
+      {
+        id: 4,
+        name: "NeetCode",
+        path: "/assets/neetcode.png",
+        href: "https://neetcode.io/",
+      },
+      {
+        id: 5,
+        name: "Frontend Masters",
+        path: "/assets/fem.png",
+        href: "https://frontendmasters.com/dashboard/",
+      },
+    ]
+
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
     deskScale: isSmall ? 5 : isMobile ? 6 : 6,
@@ -81,7 +115,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
     headPhones: isSmall
       ? [5, 7, 0]
       : isMobile
-      ? [-5, 10, -8]
+      ? [-5, 10, -12]
       : isTablet
       ? [-12, 10, 0]
       : [-10.5, 3.5, 0],

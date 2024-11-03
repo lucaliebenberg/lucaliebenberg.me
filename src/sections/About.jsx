@@ -2,6 +2,7 @@ import { useState } from "react";
 import Globe from "react-globe.gl";
 
 import Button from "../components/Button.jsx";
+import { myHobbies } from "../constants/index.js";
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
@@ -14,6 +15,8 @@ const About = () => {
       setHasCopied(false);
     }, 2000);
   };
+
+  const hobbies = myHobbies;
 
   return (
     <section className="c-space my-20" id="about">
@@ -105,6 +108,29 @@ const About = () => {
           </div>
         </div>
 
+        <div className="col-span-1 xl:row-span-3">
+          <div className="grid-container">
+
+            <div>
+              <p className="grid-headtext">My Socials</p>
+              <p className="grid-subtext">
+              Socials where we can connect and some of my daily hobbies.
+              </p>
+              {/* TODO: socials block here */}
+              <div className="flex items-center gap-3 mt-2">
+              {hobbies.map((item, index) => (
+                <a key={index} href={item.href} target="_blank">
+                  <div  className="hobby-logo">
+                    <img src={item.path} alt={item.name} />
+                  </div>
+                </a>
+          
+              ))}
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="xl:col-span-1 xl:row-span-2">
           <div className="grid-container">
             <img
@@ -127,6 +153,7 @@ const About = () => {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );

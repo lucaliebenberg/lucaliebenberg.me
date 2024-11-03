@@ -35,7 +35,7 @@ const Projects = () => {
 
   return (
     <section className="c-space my-20" id="work">
-      <p className="head-text">My Selected Work</p>
+      <p className="head-text">My Work</p>
 
       {/* TODO: refine work and render WebGL audio patterns */}
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
@@ -83,7 +83,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <p>Check Live Site</p>
+              <p>View Live Site</p>
               <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
             </a>
           </div>

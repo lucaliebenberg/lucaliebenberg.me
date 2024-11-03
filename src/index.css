@@ -85,6 +85,10 @@ body {
   .tech-logo {
     @apply w-10 h-10 rounded-md p-2 bg-neutral-100 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center;
   }
+  .hobby-logo {
+    /* w-20 h-20 */
+    @apply w-16 h-16 rounded-lg p-2 bg-[#020100] bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center;
+  }
 
   /*  work experience section */
   .work-container {

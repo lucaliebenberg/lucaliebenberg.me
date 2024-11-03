@@ -14,7 +14,7 @@ const Footer = () => {
           </a>
       </div>
 
-      <p className="text-white-500">© 2024 Luca Liebenberg. All rights reserved.</p>
+      <p className="text-white-500"> Luca Liebenberg © 2024</p>
     </footer>
   );
 };
