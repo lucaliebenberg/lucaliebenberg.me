@@ -32,7 +32,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Luca Liebenberg</p>
               <p className="grid-subtext">
-              I have honed my expertise frontend development, creating dynamic, interactive, and responsive websites - whilst constantly learning how to build robust backend applications.
+              A disciplined and lifelong learning individual, who is a self taught developer with a background in Interaction Design complimented with strong interests in Software Development, UX, Problem Solving and Entrepreneurship. I love playing the saxophone, exploring a range of genres - jazz, blues, pop and classics, to name a few!
               </p>
             </div>
           </div>
@@ -83,9 +83,11 @@ const About = () => {
                 Frontend Developer who loves Backend
               </p>
               <p className="grid-subtext">
-                I&apos;m based in Cape Town, South Africa and currently work for Trinity IoT, as a Frontend Developer.
+                I'm based in Cape Town, South Africa and currently work for Trinity IoT, as a Frontend Developer.
               </p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <a href="/resume/luca_liebenberg_resume.pdf" download="luca_liebenberg_resume">
+                <Button name="Download my resume" isBeam containerClass="w-full mt-10" />
+              </a>
             </div>
           </div>
         </div>

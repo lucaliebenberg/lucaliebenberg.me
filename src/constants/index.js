@@ -13,12 +13,7 @@ export const navLinks = [
     id: 3,
     name: "Work",
     href: "#work",
-  },
-  // {
-  //   id: 4,
-  //   name: "Contact",
-  //   href: "#contact",
-  // },
+  }
 ];
 
 export const myProjects = [
@@ -62,6 +57,87 @@ export const myProjects = [
         id: 5,
         name: "Solidity",
         path: "/assets/solidity.svg",
+      },
+    ],
+  },
+  {
+    title: "Onesheet",
+    desc: "SaaS Marketing Landing Page.",
+    subdesc:
+      "A responsive Single Page Application that was designed and developed for a SaaS accounting company, Onesheet.",
+    href: "https://onesheetsolutions.netlify.app/",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/project-logo2.png",
+    logoStyle: {
+      backgroundColor: "black",
+
+      border: "0.2px solid #405982",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 4,
+        name: "Framer Motion",
+        path: "/assets/framer.png",
+      },
+      {
+        id: 5,
+        name: "Figma",
+        path: "/assets/figma.png",
+      },
+    ],
+  },
+  {
+    title: "Post It",
+    desc: "Fullstack Community Web Application (In development).",
+    subdesc:
+      "A Django-based web application for creating and managing posts, aimed at helping those who hand out job slips at traffic robots in South Africa by providing a self-service platform to share their slips.",
+    href: "https://github.com/lucaliebenberg/post-it",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/project-logo3.jpeg",
+    logoStyle: {
+      backgroundColor: "black",
+
+      border: "0.2px solid #405982",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/django.png",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 4,
+        name: "Figma",
+        path: "/assets/figma.png",
+      },
+      {
+        id: 5,
+        name: "PostgreSQL",
+        path: "/assets/postgresql.png",
+      },
+      {
+        id: 5,
+        name: "Docker",
+        path: "/assets/docker.png",
       },
     ],
   }
@@ -123,7 +199,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 };
 
 export const workExperiences = [
-  // animation: victory, clapping, salute
+  // animation: [victory, clapping, salute]
   {
     id: 1,
     name: "Trinity IoT",

@@ -14,7 +14,7 @@ const Footer = () => {
           </a>
       </div>
 
-      <p className="text-white-500"> Luca Liebenberg © 2024</p>
+      <p className="text-white-500"> Luca Liebenberg - <i>Just Hack It</i> © 2024</p>
     </footer>
   );
 };
