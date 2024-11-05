@@ -1,6 +1,6 @@
 <div align="center">
   
-  <h3 align="center">lucaliebenberg.me</h3>
+  <h1 align="center"> lucaliebenberg.me 🇿🇦 </h3>
 
   <br />
 
@@ -13,7 +13,7 @@
   
 </div>
 
-## <a name="quick-start">Quick Start</a>
+## Quick Start
 
 Follow these steps to set up the project locally on your machine.
 
@@ -32,24 +32,6 @@ Install the project dependencies using npm:
 ```bash
 npm install
 ```
-
-**Set Up Environment Variables**
-
-Create a new file named `.env` in the root of your project
-```
-touch .env
-```
-
- and add the following content:
-
-```env
-REACT_APP_EMAILJS_USERID=your_emailjs_user_id
-REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
-REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
-```
-
-Replace the placeholder values with your actual EmailJS credentials. 
-You can obtain these credentials by signing up on the [EmailJS website](https://www.emailjs.com/).
 
 **Running the Project**
 
