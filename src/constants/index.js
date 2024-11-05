@@ -99,6 +99,74 @@ export const myProjects = [
     ],
   },
   {
+    title: "Hotel Reservation",
+    desc: "JSON RESTful API",
+    subdesc:
+      "Hotel reservation JSON api that allows user to authenticate themselves, list hotels, book available hotels, list rooms, cancel bookings, seed scripting + admin auth.",
+    href: "https://github.com/lucaliebenberg/hotel-reservation-backend",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/project-hotel.jpeg",
+    logoStyle: {
+      backgroundColor: "black",
+
+      border: "0.2px solid #405982",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "Golang",
+        path: "/assets/golang.png",
+      },
+      {
+        id: 2,
+        name: "REST API",
+        path: "/assets/restful.png",
+      },
+      {
+        id: 4,
+        name: "MongoDB",
+        path: "/assets/mongodb.svg",
+      },
+  
+    ],
+  },
+  {
+    title: "Microservice",
+    desc: "Traffic toll microservice.",
+    subdesc:
+      "A microservice built for calculating invoices for truck delivery companies, based on distance travelled during delivery windows.",
+    href: "https://github.com/lucaliebenberg/traffic-toll-microservice",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/traffic-toll-bg.jpg",
+    logoStyle: {
+      backgroundColor: "black",
+
+      border: "0.2px solid #405982",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "Golang",
+        path: "/assets/golang.png",
+      },
+      {
+        id: 2,
+        name: "REST API",
+        path: "/assets/restful.png",
+      },
+      {
+        id: 3,
+        name: "Docker",
+        path: "/assets/docker.png",
+      },
+  
+    ],
+  },
+  {
     title: "Post It",
     desc: "Fullstack Community Web Application (In development).",
     subdesc:
