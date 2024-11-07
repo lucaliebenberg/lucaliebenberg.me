@@ -265,17 +265,3 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
       : [-10.5, 3.5, 0],
   };
 };
-
-export const workExperiences = [
-  // animation: [victory, clapping, salute]
-  {
-    id: 1,
-    name: "Trinity IoT",
-    pos: "Frontend Developer",
-    duration: "Jul 2023 - Present",
-    title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
-    animation: "victory",
-  }
-];
