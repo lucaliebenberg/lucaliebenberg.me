@@ -7,21 +7,21 @@ const tl = gsap.timeline();
 // Preloader Animation
 export const preLoaderAnim = () => {
   tl.to("body", {
-    duration: 0.1,
+    duration: 0.35,  // +0.25 from 0.1
     css: { overflowY: "hidden" },
     ease: "power3.inOut",
   })
     .to(".landing", {
-      duration: 0.05,
+      duration: 0.3,  // +0.25 from 0.05
       css: { overflowY: "hidden", height: "90vh" },
     })
     .to(".texts-container", {
-      duration: 0,
+      duration: 0,  // keeping at 0 since it's instantaneous
       opacity: 1,
       ease: "Power3.easeOut",
     })
     .from(".texts-container span", {
-      duration: 1.5,
+      duration: 1.75,  // +0.25 from 1.5
       delay: 1,
       y: 70,
       skewY: 10,
@@ -29,24 +29,23 @@ export const preLoaderAnim = () => {
       ease: "Power3.easeOut",
     })
     .to(".texts-container span", {
-      duration: 1,
+      duration: 1.25,  // +0.25 from 1.0
       y: 70,
       skewY: -20,
       stagger: 0.2,
       ease: "Power3.easeOut",
     })
-
     .to(".landing", {
-      duration: 0.05,
+      duration: 0.3,  // +0.25 from 0.05
       css: { overflowY: "hidden", height: "unset" },
     })
     .to("body", {
-      duration: 0.1,
+      duration: 0.35,  // +0.25 from 0.1
       css: { overflowY: "scroll" },
       ease: "power3.inOut",
     })
     .from(".landing__top .sub", {
-      duration: 1,
+      duration: 1.25,  // +0.25 from 1.0
       opacity: 0,
       y: 80,
       ease: "expo.easeOut",
@@ -54,7 +53,7 @@ export const preLoaderAnim = () => {
     .to(
       ".preloader",
       {
-        duration: 1.5,
+        duration: 1.75,  // +0.25 from 1.5
         height: "0vh",
         ease: "Power3.easeOut",
         onComplete: mobileLanding(),
@@ -62,8 +61,7 @@ export const preLoaderAnim = () => {
       "-=2"
     )
     .from(".landing__main .text", {
-      duration: 2,
-      // scale: 0,
+      duration: 2.25,  // +0.25 from 2.0
       y: 10,
       opacity: 0,
       stagger: {
@@ -72,10 +70,9 @@ export const preLoaderAnim = () => {
       ease: "power3.easeInOut",
     })
     .from(".links .item", {
-      duration: 0.5,
+      duration: 0.75,  // +0.25 from 0.5
       opacity: 0,
       delay: window.innerWidth < 763 ? -3 : -0.6,
-      // y: 80,
       stagger: {
         amount: 0.5,
       },
@@ -83,20 +80,20 @@ export const preLoaderAnim = () => {
       onComplete: animateMainShape(),
     })
     .from(".main-circle", {
-      duration: 1,
+      duration: 1.25,  // +0.25 from 1.0
       opacity: 0,
       ease: "power3.easeInOut",
       onComplete: animateShapes(),
     })
     .from(".shapes .shape", {
-      duration: 1,
+      duration: 1.25,  // +0.25 from 1.0
       opacity: 0,
       delay: -1,
       ease: "power3.easeInOut",
       stagger: 1,
     })
     .to(".preloader", {
-      duration: 0,
+      duration: 0,  // keeping at 0 since it's instantaneous
       css: { display: "none" },
     });
 };
