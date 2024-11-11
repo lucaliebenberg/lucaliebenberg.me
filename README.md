@@ -1,6 +1,12 @@
 <div align="center">
   
-  <h1 align="center"> lucaliebenberg.me 🇿🇦 </h3>
+  
+  <h1 align="center">
+      <a href="www.lucaliebenberg.com" target="_blank">
+        lucaliebenberg.me 🇿🇦 
+      </a>
+  </h3>  
+
   
    [![Netlify Status](https://api.netlify.com/api/v1/badges/75dec47e-e419-404b-a405-fac8d3b2acf1/deploy-status)](https://app.netlify.com/sites/melucaliebenberg/deploys)
 
