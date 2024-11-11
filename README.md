@@ -2,7 +2,7 @@
   
   
   <h1 align="center">
-      <a href="www.lucaliebenberg.com" target="_blank">
+      <a href="https://www.lucaliebenberg.com" target="_blank">
         lucaliebenberg.me 🇿🇦 
       </a>
   </h3>  
